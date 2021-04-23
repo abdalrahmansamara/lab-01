@@ -1,0 +1,50 @@
+div{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 360px;
+    margin: 30px 30px;
+    grid-template-rows: 60px 200px 100px;
+    padding: 20px;
+    outline: none;
+    transition: 1s;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    
+}
+
+
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+}
+#photo-template{
+    display: none;
+}
+.displays {
+    display: none;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+}
+.btn-1, .btn-2 {
+    letter-spacing: 1px;
+    width: 120px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    transition: ease-out 0.3s;
+    font-size: 15px;
+    outline: none;
+}
